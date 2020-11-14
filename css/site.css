@@ -81,6 +81,12 @@ h1 {
 		background: var(--light-red);
 	}
 
+	.btn.btn-white.text-blue:hover {
+		color: #fff;
+		text-decoration: none;
+		background: var(--light-blue);
+	}
+
 	.btn.btn-blue {
 		background: var(--blue);
 		color: #fff;
@@ -95,6 +101,68 @@ h1 {
 header img {
 	display: block;
 	margin: 75px auto;
+}
+
+#mobile-nav {
+	display: none;
+	position: fixed;
+	top: 7px;
+	left: 7px;
+	right: 7px;
+	z-index: 100;
+}
+
+	#mobile-nav-toggle {
+		border: 2px solid var(--blue);
+	}
+
+	#mobile-nav-menu {
+		overflow-y: hidden;
+		position: fixed;
+		top: 91px;
+		left: 9px;
+		right: 9px;
+		border-radius: 0 0 15px 15px;
+		height: 0;
+		transition: height 0.2s;
+		display: grid;
+		background: #fff;
+	}
+
+	#mobile-nav-menu.visible {
+		height: 360px;
+		border: 2px solid var(--blue);
+	}
+
+		#mobile-nav-menu a {
+			color: var(--blue);
+			display: block;
+			height: 45pt;
+			line-height: 45pt;
+		}
+
+		#mobile-nav-menu a:hover {
+			background: var(--light-blue);
+			color: #fff;
+		}
+
+#mobile-nav-scrim {
+	display: none;
+	-webkit-backdrop-filter: blur(5px);
+	-moz-backdrop-filter: blur(5px);
+	-ms-backdrop-filter: blur(5px);
+	-o-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+#mobile-nav-scrim.visible {
+	display: block;
 }
 
 nav {
@@ -186,14 +254,50 @@ main {
 		margin-bottom: 45px;
 	}
 
+@media screen and (max-width: 1024px){
+	nav {
+		padding: 22px 0;
+	}
+		nav a {
+			font-size: calc(var(--fs-normal) - 10%);
+		}
+}
 
 @media screen and (max-width: 800px){
+	nav {
+		padding: 22px 0;
+	}
+		nav a {
+			font-size: calc(var(--fs-normal) - 10%);
+		}
+
 	h1 {
 		font-size: calc(var(--fs-large) - 15pt);
 	}
 }
 
+@media screen and (max-width: 768px){
+	nav {
+		padding: 22px 0;
+	}
+		nav a {
+			font-size: calc(var(--fs-normal) - 15%);
+		}
+}
+
 @media screen  and  (max-width: 600px){
+	nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: block;
+	}
+
+	header {
+		padding-top: 60px;
+	}
+
 	.bullet-item {
 		display: block;
 	}
@@ -215,6 +319,10 @@ main {
 }
 
 @media  screen and (max-width: 500px){
+	#mobile-nav-menu {
+		top:  85px;
+	}
+
 	section {
 		padding: 50px 20px !important;
 	}
