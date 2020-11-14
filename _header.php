@@ -17,7 +17,7 @@
 			<a href="/comment">Public Comment</a>
 			<a href="/facts">Facts</a>
 			<a href="/resources">Resources</a>
-			<a href="/contact">Contact</a>
+			<a href="/about">About</a>
 		</nav>
 
 		<nav id="mobile-nav">
@@ -28,7 +28,7 @@
 				<a href="/comment">Public Comment</a>
 				<a href="/facts">Facts</a>
 				<a href="/resources">Resources</a>
-				<a href="/contact">Contact</a>
+				<a href="/about">About</a>
 			</div>
 		</nav>
 		<div id="mobile-nav-scrim"></div>

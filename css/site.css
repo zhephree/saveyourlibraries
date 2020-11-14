@@ -4,6 +4,7 @@
 	--light-blue: #7a7ea1;
 	--red: #9f1c20;
 	--light-red: #c57779;
+	--fs-smaller: 16pt;
 	--fs-normal: 20pt;
 	--fs-big: 32pt;
 	--fs-large: 44pt;
@@ -38,6 +39,10 @@
 
 .pb-20 {
 	padding-bottom: 20px;
+}
+
+.mt-40 {
+	margin-top: 40px;
 }
 
 .no-scroll {
@@ -362,7 +367,8 @@ body:not(.page-home) main {
 		width: 256px;
 		border-radius: 15px;
 		overflow: hidden;
-		display: inline-block;
+		display: flex;
+		flex-direction: column;
 	}
 
 		.tile:first-of-type {
@@ -376,10 +382,11 @@ body:not(.page-home) main {
 			background: #fff;
 			text-align: center;
 			line-height: 256px;
+			flex: 1;
 		}
 
 			.tile-thumb i {
-				font-size: 128px;
+				font-size: var(--icon-big);
 			}
 
 			.tile-thumb img {
@@ -400,10 +407,13 @@ body:not(.page-home) main {
 			color: var(--red);
 			margin: 0;
 			padding: 7px;
+			font-size: var(--fs-smaller);
+			border-radius: 0 0 15px 15px;
 		}
 
 			.tile-links a {
 				color: var(--red);
+				font-size: var(--fs-smaller);
 			}
 
 /**** Fix it on Smaller Screens ****/
