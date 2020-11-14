@@ -49,6 +49,7 @@
 .quote p,
 h1, h2,
 section p,
+.tile-wrapper,
 .btn {
 	font-family: "cooper-black-std", serif;
 	font-size:  var(--fs-normal);
@@ -69,7 +70,7 @@ body:not(.page-home) section p strong {
 }
 
 body:not(.page-home) section p a {
-	color: #210910;
+	color: var(--light-red);
 	text-decoration: underline;
 }
 body:not(.page-home) section p a:hover {
@@ -106,6 +107,7 @@ h1 {
 
 h2 {
 	font-size: var(--fs-big);
+	margin-top: 50px;
 }
 
 header img {
@@ -227,6 +229,15 @@ body:not(.page-home) #logo {
 }
 
 /**** Main Styles ****/
+body:not(.page-home) header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 125px;
+	z-index: 10;
+}
+
 body:not(.page-home) nav {
 	grid-template-columns: repeat(7, minmax(0, 1fr));
 }
@@ -278,7 +289,7 @@ body:not(.page-home) main {
 	}
 
 	body:not(.page-home) section:first-of-type {
-		padding-top: 50px;
+		padding-top: 150px;
 	}
 
 		.bullet-item {
@@ -341,6 +352,60 @@ body:not(.page-home) main {
 		margin-bottom: 45px;
 	}
 
+.tile-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+	grid-gap: 10px;
+}
+
+	.tile {
+		width: 256px;
+		border-radius: 15px;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+		.tile:first-of-type {
+			margin-left: 0;
+		}
+
+		.tile-thumb {
+			height: 256px;
+			overflow: hidden;
+			color: var(--red);
+			background: #fff;
+			text-align: center;
+			line-height: 256px;
+		}
+
+			.tile-thumb i {
+				font-size: 128px;
+			}
+
+			.tile-thumb img {
+				width: 256px;
+			}
+
+		.tile p {
+			text-align: center;
+			background: #fff;
+			color: var(--red);
+			margin: 0 !important;
+			padding: 7px;
+		}
+
+		.tile-links {
+			text-align: center;
+			background: #fff;
+			color: var(--red);
+			margin: 0;
+			padding: 7px;
+		}
+
+			.tile-links a {
+				color: var(--red);
+			}
+
 /**** Fix it on Smaller Screens ****/
 @media screen and (max-width: 1024px){
 	nav {
@@ -374,6 +439,10 @@ body:not(.page-home) main {
 }
 
 @media screen  and  (max-width: 600px){
+	body:not(.page-home) section:first-of-type {
+		padding: 150px 20px;
+	}
+
 	nav {
 		display: none;
 	}
@@ -394,6 +463,7 @@ body:not(.page-home) main {
 			display: block;
 			margin: 0 auto;
 			width: calc(var(--icon-big) + 33px);
+			margin-right: auto !important;
 		}
 
 		.bullet-item p  {
@@ -404,6 +474,10 @@ body:not(.page-home) main {
 		.bullet-item.right p {
 			margin: 10px auto;
 		}
+
+	h2 {
+		font-size: calc(var(--fs-big) - 46%);
+	}
 }
 
 @media  screen and (max-width: 500px){
@@ -415,8 +489,12 @@ body:not(.page-home) main {
 		padding: 50px 20px !important;
 	}
 
-	section:first-of-type {
+	body.page-home section:first-of-type {
 		padding-top: 240px !important;
+	}
+
+	body:not(.page-home) section:first-of-type {
+		padding: 150px 20px !important;
 	}
 
 	.bullet-item i {
@@ -442,10 +520,28 @@ body:not(.page-home) main {
 	#toolkit-wrapper p {
 		font-size: calc(var(--fs-normal) - 35%);
 	}
+
+	.tile {
+		width: 100%;
+	}
+
+		.tile-thumb img {
+			width: 100%;
+		}
 }
 
 @media screen  and (max-width: 400px){
 	header img {
 		width: 100%;
+	}
+
+	h2 {
+		font-size: calc(var(--fs-big) - 71%);
+	}
+}
+
+@media screen  and (max-width: 320px){
+	h2 {
+		font-size: calc(var(--fs-big) - 107%);
 	}
 }

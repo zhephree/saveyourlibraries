@@ -11,7 +11,7 @@
 <body class="page-<?= $active_page ?>">
 	<header class="blue">
 		<nav>
-			<img src="/logo.png" id="subpage-logo">
+			<img src="/img/logo.png" id="subpage-logo">
 			<a href="/">Home</a>
 			<a href="/toolkit">Toolkit</a>
 			<a href="/comment">Public Comment</a>
@@ -32,6 +32,6 @@
 			</div>
 		</nav>
 		<div id="mobile-nav-scrim"></div>
-		<img src="/logo.png" id="logo">
+		<img src="/img/logo.png" id="logo">
 	</header>
 	<main>

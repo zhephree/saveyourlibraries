@@ -60,5 +60,69 @@ require('_header.php');
 					<a href="https://forms.gle/b7aLpqSjDngoSsiW7" target="_blank">Make a personal video</a> and let your community know why the NOPL is important to you! We will be editing and releasing videos until election day to amplify the voices of the people that will be affected if #2 passes. Videos from activities at the library or personal testimonials from supporters large and small are encouraged!
 				</p>
 			</div>
+
+			<h2>Have questions or want to do more? Contact us!</h2>
+			<p>Reach out to us as <a href="mailto:SaveYourNOLALibrary@gmail.com">SaveYourNOLALibrary@gmail.com</a> to discuss more ways to join the fight!</p>
+
+			<h2>Graphics</h2>
+			<div class="tile-wrapper">
+				<div class="tile">
+					<div class="tile-thumb">
+						<i class="fad fa-folders"></i>
+					</div>
+					<p>Comms Materials</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/drive/folders/1IF0feiEGcf4FH55syjZQfBL28CrADY7L?usp=sharing">Google Drive</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/qa_thumb.png">
+					</div>
+					<p>Q & A</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1H-d5wvNke12q1qRTG4_bV_EhGU-tTsjq/view?usp=sharing">JPG</a> |
+						<a href="https://drive.google.com/file/d/11WcZ_K-2Ex4bHsmciBGhialhgjcEcJQ2/view?usp=sharing">PDF</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/onepager_thumb.png">
+					</div>
+					<p>Short & Sweet One Pager</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1xdoP5CfYgkQcWDs1CPCH8cZW8CR_6EZF/view?usp=sharing">PNG</a> |
+						<a href="https://drive.google.com/file/d/1IZS8HebTHTs6DFGDGS6PpidbAHSaBkvW/view?usp=sharing">PDF</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/logo.png">
+					</div>
+					<p>Logo</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1H9Dit_hGlarq5U7IpfjITuehn7jwUIwL/view?usp=sharing">PNG</a> |
+						<a href="https://drive.google.com/file/d/1p_3w14sFEDgBOubnGdQa0lItp_qfl6oQ/view?usp=sharing">PDF</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/fbbanner_thumb.png">
+					</div>
+					<p>Facebook Banner</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1c2o_IV0i1iUwwGNOFGjaTr3fE18e_iwJ/view?usp=sharing">PNG</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/ig_thumb.png">
+					</div>
+					<p>Instagram Graphic</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1W6eJRXlBKSsLsApCSwHc-EHcESLydrP5/view?usp=sharing">PNG</a>
+					</div>
+				</div>
+			</div>
 		</section>
 <?php require('_footer.php'); ?>
