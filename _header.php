@@ -8,9 +8,10 @@
 	<script src="https://kit.fontawesome.com/437c873b60.js" crossorigin="anonymous"></script>
 	<title><?= !empty($page_title)? $page_title . ' - ': '' ?>#SaveYourLibraries</title>
 </head>
-<body>
+<body class="page-<?= $active_page ?>">
 	<header class="blue">
 		<nav>
+			<img src="/logo.png" id="subpage-logo">
 			<a href="/">Home</a>
 			<a href="/toolkit">Toolkit</a>
 			<a href="/comment">Public Comment</a>
@@ -31,6 +32,6 @@
 			</div>
 		</nav>
 		<div id="mobile-nav-scrim"></div>
-		<img src="/logo.png">
+		<img src="/logo.png" id="logo">
 	</header>
 	<main>

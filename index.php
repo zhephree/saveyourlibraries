@@ -1,6 +1,6 @@
 <?php 
 $page_title = '';
-$active_page = '';
+$active_page = 'home';
 require('_header.php'); 
 ?>
 		<section class="red">

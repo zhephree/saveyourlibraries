@@ -1,14 +1,17 @@
+/**** Variables ****/
 :root {
 	--blue: #222863;
 	--light-blue: #7a7ea1;
 	--red: #9f1c20;
 	--light-red: #c57779;
 	--fs-normal: 20pt;
+	--fs-big: 32pt;
 	--fs-large: 44pt;
 	--icon-big: 128px;
 	--icon-huge: 256px;
 }
 
+/**** Helpers ****/
 .blue {
 	background: var(--blue);
 	color: #fff;
@@ -37,16 +40,54 @@
 	padding-bottom: 20px;
 }
 
+.no-scroll {
+	overflow: hidden;
+}
 
+/**** Generic Styles ****/
 .bullet-item p,
 .quote p,
-h1,
+h1, h2,
 section p,
 .btn {
 	font-family: "cooper-black-std", serif;
 	font-size:  var(--fs-normal);
 	max-width: 1000px;
 	margin: 0 auto;
+}
+
+body:not(.page-home) section p {
+	margin: 15px auto;
+	font-family: bebas-neue-pro, sans-serif;
+	line-height: 23pt;
+}
+
+body:not(.page-home) section p strong {
+	font-family: bebas-neue-pro, sans-serif;
+	line-height: 23pt;
+	font-weight: 900;
+}
+
+body:not(.page-home) section p a {
+	color: #210910;
+	text-decoration: underline;
+}
+body:not(.page-home) section p a:hover {
+	color: #5D0D26;
+	text-decoration: underline;
+}
+
+body:not(.page-home) .bullet-item {
+	max-width: 1000px;
+	margin: 10px auto 50px;
+}
+body:not(.page-home) .bullet-item p  {
+	margin: 0 auto 15px 0;
+}
+body:not(.page-home) .bullet-item i  {
+	width: calc(var(--icon-big) + 50px);
+	text-align: center;
+	margin-right: 15px;
 }
 
 nav a,
@@ -63,6 +104,30 @@ h1 {
 	font-size: var(--fs-large);
 }
 
+h2 {
+	font-size: var(--fs-big);
+}
+
+header img {
+	display: block;
+	margin: 75px auto;
+}
+
+#subpage-logo {
+	display: block;
+	height: 75px;
+	margin: 0;
+}
+
+body.page-home #subpage-logo {
+	display: none;
+}
+
+body:not(.page-home) #logo {
+	display: none;
+}
+
+/**** Buttons ****/
 .btn {
 	text-decoration: none;
 	border-radius: 15px;
@@ -98,11 +163,7 @@ h1 {
 		background: var(--light-blue);
 	}
 
-header img {
-	display: block;
-	margin: 75px auto;
-}
-
+/**** Mobile Navigation ****/
 #mobile-nav {
 	display: none;
 	position: fixed;
@@ -165,6 +226,11 @@ header img {
 	display: block;
 }
 
+/**** Main Styles ****/
+body:not(.page-home) nav {
+	grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
 nav {
 	padding: 22px 100px;
 	display: grid;
@@ -175,15 +241,32 @@ nav {
 		font-size: var(--fs-normal);
 		text-align: center;
 		transition: all 0.3s;
+		border-radius: 15px;
+		padding: 7px;
+		height: 56px;
 	}
 		nav a:hover {
 			text-decoration: none;
 			color: var(--light-blue);
 		}
 
+.page-home nav > a[href="/"] {
+	background: #fff;
+	color: var(--blue);
+}
+
+.page-toolkit nav > a[href="/toolkit"] {
+	background: #fff;
+	color: var(--blue);
+}
+
 main {
 	margin-top: -241px;
 	/*margin-bottom: -120px;*/
+}
+
+body:not(.page-home) main {
+	margin-top: 0;
 }
 
 	section {
@@ -192,6 +275,10 @@ main {
 
 	section:first-of-type {
 		padding-top: 260px;
+	}
+
+	body:not(.page-home) section:first-of-type {
+		padding-top: 50px;
 	}
 
 		.bullet-item {
@@ -254,6 +341,7 @@ main {
 		margin-bottom: 45px;
 	}
 
+/**** Fix it on Smaller Screens ****/
 @media screen and (max-width: 1024px){
 	nav {
 		padding: 22px 0;
