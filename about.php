@@ -22,7 +22,7 @@ require('_header.php');
 						<img src="/img/logo_bttt.png" alt="LOGO: Black to the Table">
 					</div>
 					<div class="tile-links">
-						Black to the Table
+						<a href="https://www.blacktothetable.com" target="_blank">Black to the Table</a>
 					</div>
 
 				</div>
