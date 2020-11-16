@@ -276,6 +276,21 @@ nav {
 	color: var(--blue);
 }
 
+.page-facts nav > a[href="/facts"] {
+	background: #fff;
+	color: var(--blue);
+}
+
+.page-resources nav > a[href="/resources"] {
+	background: #fff;
+	color: var(--blue);
+}
+
+.page-about nav > a[href="/about"] {
+	background: #fff;
+	color: var(--blue);
+}
+
 main {
 	margin-top: -241px;
 	/*margin-bottom: -120px;*/
