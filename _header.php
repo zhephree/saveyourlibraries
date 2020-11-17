@@ -18,7 +18,7 @@
 			<a href="/toolkit">Toolkit</a>
 			<a href="/comment">Public Comment</a>
 			<a href="/facts">Facts</a>
-			<a href="/resources">Resources</a>
+			<!-- <a href="/resources">Resources</a> -->
 			<a href="/about">About</a>
 		</nav>
 
@@ -29,7 +29,7 @@
 				<a href="/toolkit">Toolkit</a>
 				<a href="/comment">Public Comment</a>
 				<a href="/facts">Facts</a>
-				<a href="/resources">Resources</a>
+				<!-- <a href="/resources">Resources</a> -->
 				<a href="/about">About</a>
 			</div>
 		</nav>
