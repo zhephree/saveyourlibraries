@@ -1,7 +1,7 @@
-<?php 
+<?php
 $page_title = 'About';
 $active_page = 'about';
-require('_header.php'); 
+require('_header.php');
 ?>
 		<section class="red">
 			<h1>About Our Coalition</h1>
@@ -92,7 +92,7 @@ require('_header.php');
 			</div>
 
 			<h1 class="mt-40">Contact Us</h1>
-			<p>If you have questions or want for information, contact us at [EMAIL ADDRESS]</p>
+			<p>If you have questions or want for information, contact us at SaveYourNOLALibrary@gmail.com</p>
 
 		</section>
 <?php require('_footer.php'); ?>
