@@ -122,6 +122,13 @@ header img {
 	margin: 75px auto;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 #subpage-logo {
 	display: block;
 	height: 75px;
