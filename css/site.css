@@ -595,6 +595,23 @@ body:not(.page-home) main {
 		.tile-thumb img {
 			width: 100%;
 		}
+
+	.footer-wrapper {
+		display: block;
+		padding-bottom: 15px;
+	}
+
+		.footer-logo {
+			margin: 0 auto;
+			display: block;
+		}
+
+		.footer-wrapper .left,
+		.footer-wrapper .right  {
+			text-align: center;
+			margin: 15px auto;
+			width: 100%;
+		}
 }
 
 @media screen  and (max-width: 400px){
