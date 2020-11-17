@@ -2,8 +2,10 @@
 :root {
 	--blue: #222863;
 	--light-blue: #7a7ea1;
+	--lighter-blue: #81CFE0;
 	--red: #9f1c20;
 	--light-red: #c57779;
+	--black: #1f1f1f;
 	--fs-smaller: 16pt;
 	--fs-normal: 20pt;
 	--fs-big: 32pt;
@@ -75,11 +77,11 @@ body:not(.page-home) section p strong {
 }
 
 body:not(.page-home) section p a {
-	color: var(--light-red);
+	color: var(--lighter-blue);
 	text-decoration: underline;
 }
 body:not(.page-home) section p a:hover {
-	color: #5D0D26;
+	color: #558894;
 	text-decoration: underline;
 }
 
@@ -411,7 +413,7 @@ body:not(.page-home) main {
 		.tile p {
 			text-align: center;
 			background: #fff;
-			color: var(--red);
+			color: var(--black);
 			margin: 0 !important;
 			padding: 7px;
 		}
@@ -419,7 +421,7 @@ body:not(.page-home) main {
 		.tile-links {
 			text-align: center;
 			background: #fff;
-			color: var(--red);
+			color: var(--black);
 			margin: 0;
 			padding: 7px;
 			font-size: var(--fs-smaller);
@@ -427,7 +429,7 @@ body:not(.page-home) main {
 		}
 
 			.tile-links a {
-				color: var(--red);
+				color: var(--black);
 				font-size: var(--fs-smaller);
 			}
 
