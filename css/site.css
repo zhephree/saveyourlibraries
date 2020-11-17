@@ -440,6 +440,38 @@ body:not(.page-home) main {
 				font-size: var(--fs-smaller);
 			}
 
+.footer-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+		.footer-logo {
+			align-self: center;
+			margin-left: 5%
+		}
+
+		.left {
+			flex-grow: 1;
+			font-size: 36pt;
+			font-weight: bold;
+			line-height: .9;
+		}
+
+		.left-sub {
+			flex-grow: 1;
+			font-size: 12pt;
+			vertical-align: top;
+		}
+
+		.right {
+			flex-grow: 0;
+			line-height: 1.2;
+			align-self: center;
+			text-align: right;
+			margin-right: 5%;
+		}
+
 /**** Fix it on Smaller Screens ****/
 @media screen and (max-width: 1024px){
 	nav {
