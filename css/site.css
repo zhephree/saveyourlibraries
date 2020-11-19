@@ -72,12 +72,12 @@ img.full-width,
 ul,
 #disqus_thread {
 	margin: 15px auto;
-	font-family: bebas-neue-pro, sans-serif;
+	font-family: work-sans, sans-serif;
 	line-height: 23pt;
 }
 
 body:not(.page-home) section p strong {
-	font-family: bebas-neue-pro, sans-serif;
+	font-family: work-sans, sans-serif;
 	line-height: 23pt;
 	font-weight: 900;
 }
