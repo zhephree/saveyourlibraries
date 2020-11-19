@@ -118,26 +118,6 @@ require('_header.php');
 				Advocates have claimed that prop #2 would result in no tangible changes to library services. But folks familiar with the NOPL budget say this claim is absurd. There can be no doubt that these budget cuts would lead to reduced services and personnel.
 			</p>
 
-			<h2>Why is it so important to invest in the New Orleans Public Library?</h2>
-			<p>
-				With its funding, the NOPL runs 15 branches and employs over 200 New Orleans citizens who rent or own homes in Orleans Parish and contribute to our local economy. Since most of the library’s budget is spent on staff, a cut like this will inevitably affect numerous families and communities in New Orleans. 
-			</p>
-			<p>
-				What happens when the people who help unemployed workers are unemployed? Not only will cuts threaten to force library staff into unemployment, there will be less help for other workers who need access to internet, computers and digital literacy assistance. On the day-to-day, library staff offer computer assistance for less privileged or tech-savvy patrons, in addition to computers and free internet. 
-			</p>
-			<p>
-				Libraries have become the only place where people can spend time and access resources without purchasing anything. Some functions of the library have been limited by COVID-19, but library staff know the needs of their communities and are working hard to safely offer everything they can to the public, even during these challenging times. Many library users have told staff that the libraries are keeping them sane during quarantines and lockdowns!
-			</p>
-			<p>
-				With adequate funding, libraries can do a lot. They host and run numerous programs that build stronger communities by supporting adult literacy, early childhood education, career development, summer reading, financial and health literacy and the arts.
-			</p>
-			<p>
-				And we haven’t even mentioned the sheer pleasure of having a local library, of seeing your library staff regularly, getting book recommendations and interacting with knowledgeable staff. But this basic need is one that the library staff fulfill for us as well. 
-			</p>
-			<p>
-				Libraries are the buildings and books, but also the people who staff them and they’re a critical resource for everyone.
-			</p>
-
 			<h2>Would prop #2 bring the library’s budget in line with their true expenditures?</h2>
 			<p>
 				No. 
