@@ -12,6 +12,6 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="/js/site.js"></script>
+	<script type="text/javascript" src="/js/site.js?_=20201118"></script>
 </body>
 </html>
