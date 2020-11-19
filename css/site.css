@@ -58,6 +58,8 @@ h1, h2,
 section p,
 #disqus_thread,
 .tile-wrapper,
+img.full-width,
+ul,
 .btn {
 	font-family: "cooper-black-std", serif;
 	font-size:  var(--fs-normal);
@@ -66,6 +68,8 @@ section p,
 }
 
 body:not(.page-home) section p,
+img.full-width,
+ul,
 #disqus_thread {
 	margin: 15px auto;
 	font-family: bebas-neue-pro, sans-serif;
@@ -105,6 +109,8 @@ nav a,
 footer {
 	font-family: bebas-neue, sans-serif;
 }
+
+img{white-space:pre}
 
 a {
 	color: #fff;
