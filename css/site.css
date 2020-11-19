@@ -309,6 +309,11 @@ nav {
 	color: var(--blue);
 }
 
+.page-comment nav > a[href="/comment"] {
+	background: #fff;
+	color: var(--blue);
+}
+
 main {
 	margin-top: -241px;
 	/*margin-bottom: -120px;*/
