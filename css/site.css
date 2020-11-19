@@ -56,6 +56,7 @@
 .quote p,
 h1, h2,
 section p,
+#disqus_thread,
 .tile-wrapper,
 .btn {
 	font-family: "cooper-black-std", serif;
@@ -64,7 +65,8 @@ section p,
 	margin: 0 auto;
 }
 
-body:not(.page-home) section p {
+body:not(.page-home) section p,
+#disqus_thread {
 	margin: 15px auto;
 	font-family: bebas-neue-pro, sans-serif;
 	line-height: 23pt;

@@ -4,6 +4,7 @@ RewriteRule ^toolkit/?$ toolkit.php [L]
 RewriteRule ^facts/?$ facts.php [L]
 RewriteRule ^resources/?$ resources.php [L]
 RewriteRule ^about/?$ about.php [L]
+RewriteRule ^comment/?$ comment.php [L]
 
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
