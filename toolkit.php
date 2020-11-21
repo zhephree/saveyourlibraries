@@ -4,7 +4,7 @@ $active_page = 'toolkit';
 require('_header.php'); 
 ?>
 		<section class="red">
-			<h1>#SaveYourLibraries Toolkit</h1>
+			<h1>Volunteer for #SaveYourLibraries</h1>
 
 			<h2>Vote NO on #2</h2>
 			<p>
@@ -28,8 +28,8 @@ require('_header.php');
 			<div class="bullet-item">
 				<i class="fad fa-thumbs-up"></i>
 				<p>
-					<strong>Like our Facebook & Instagram</strong><br>
-					We are on <a href="https://www.facebook.com/SaveYourNOLALibrary" target="_blank" rel="noopener">Facebook</a> and <a href="https://www.instagram.com/saveyournolalibrary/" target="_blank" rel="noopener">Instagram</a>. Help spread our message by liking, sharing and commenting on our content. And use our <a href="https://docs.google.com/document/d/1xwIasy-ou6EbYX295fyzejXOYmeu4PZyw-JbYwLnsIg/edit#heading=h.y27myxrtgzz" target="_blank" rel="noopener">social media graphics</a> to create your own posts!
+					<strong>Like our Facebook, Instagram, and Twitter</strong><br>
+					We are on <a href="https://www.facebook.com/SaveYourNOLALibrary" target="_blank" rel="noopener">Facebook</a>, <a href="https://www.instagram.com/saveyournolalibrary/" target="_blank" rel="noopener">Instagram</a>, and <a href="https://twitter.com/savenolalibrary" target="_blank" rel="noopener">Twitter</a>. Help spread our message by liking, sharing and commenting on our content. And use our <a href="https://docs.google.com/document/d/1xwIasy-ou6EbYX295fyzejXOYmeu4PZyw-JbYwLnsIg/edit#heading=h.y27myxrtgzz" target="_blank" rel="noopener">social media graphics</a> to create your own posts!
 				</p>
 			</div>
 			<div class="bullet-item">

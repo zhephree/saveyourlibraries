@@ -15,22 +15,24 @@
 		<nav>
 			<img src="/img/logo.png" id="subpage-logo" alt="LOGO: Save Your Libraries" height="75" width="74.76">
 			<a href="/">Home</a>
-			<a href="/toolkit">Toolkit</a>
+			<a href="/volunteer">Volunteer</a>
 			<a href="/comment">Public Comment</a>
 			<a href="/facts">Facts</a>
 			<!-- <a href="/resources">Resources</a> -->
 			<a href="/about">About</a>
+			<a href="mailto:saveyournolalibrary@gmail.com">Contact Us</a>
 		</nav>
 
 		<nav id="mobile-nav">
 			<a href="#" class="btn btn-white full-width text-blue" id="mobile-nav-toggle"><i class="fad fa-bars"></i> Menu</a>
 			<div id="mobile-nav-menu">
 				<a href="/">Home</a>
-				<a href="/toolkit">Toolkit</a>
+				<a href="/volunteer">Volunteer</a>
 				<a href="/comment">Public Comment</a>
 				<a href="/facts">Facts</a>
 				<!-- <a href="/resources">Resources</a> -->
 				<a href="/about">About</a>
+				<a href="mailto:saveyournolalibrary@gmail.com">Contact Us</a>
 			</div>
 		</nav>
 		<div id="mobile-nav-scrim"></div>

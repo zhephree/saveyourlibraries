@@ -1,6 +1,7 @@
 RewriteEngine on
 
 RewriteRule ^toolkit/?$ toolkit.php [L]
+RewriteRule ^volunteer/?$ toolkit.php [L]
 RewriteRule ^facts/?$ facts.php [L]
 RewriteRule ^resources/?$ resources.php [L]
 RewriteRule ^about/?$ about.php [L]

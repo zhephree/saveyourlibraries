@@ -52,7 +52,7 @@ require('_header.php');
 			<div id="toolkit-wrapper">
 				<h1><i class="fad fa-toolbox"></i> Learn How You Can Help</h1>
 				<p class="pb-20">We need as many people as possible to help spread the word........</p>
-				<a class="btn btn-blue full-width" href="/toolkit">Checkout Our Toolkit</a>
+				<a class="btn btn-blue full-width" href="/toolkit">Checkout Our Volunteer Info</a>
 			</div>
 		</section>
 <?php require('_footer.php'); ?>

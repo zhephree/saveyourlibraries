@@ -294,6 +294,11 @@ nav {
 	color: var(--blue);
 }
 
+.page-toolkit nav > a[href="/volunteer"] {
+	background: #fff;
+	color: var(--blue);
+}
+
 .page-facts nav > a[href="/facts"] {
 	background: #fff;
 	color: var(--blue);

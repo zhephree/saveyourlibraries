@@ -7,7 +7,7 @@
 			</div>
 
 			<div class="right">Copyright 2020 DSA New Orleans
-				<div class="right"><a href="mailto:hello@dsaneworleans.org">hello@dsaneworleans.org</a></div>
+				<div class="right"><a href="mailto:saveyournolalibrary@gmail.com">saveyournolalibrary@gmail.com</a></div>
 			</div>
 		</div>
 	</footer>
