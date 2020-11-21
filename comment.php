@@ -5,6 +5,15 @@ require('_header.php');
 ?>
 		<section class="red">
 			<h1>#SaveYourLibraries Comment</h1>
+
+			<div class="bullet-item">
+				<i class="fad fa-video-plus"></i>
+				<p>
+					<strong>Tell Your Story!</strong><br>
+					<a href="https://forms.gle/b7aLpqSjDngoSsiW7" target="_blank" rel="noopener">Make a personal video</a> and let your community know why the NOPL is important to you! We will be editing and releasing videos until election day to amplify the voices of the people that will be affected if #2 passes. Videos from activities at the library or personal testimonials from supporters large and small are encouraged!
+				</p>
+			</div>
+			
 			<p>Tell us why you love your New Orleas Public Library!</p>
 
 			<div id="disqus_thread"></div>
