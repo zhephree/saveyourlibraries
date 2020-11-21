@@ -262,7 +262,7 @@ body:not(.page-home) header {
 }
 
 body:not(.page-home) nav {
-	grid-template-columns: repeat(7, minmax(0, 1fr));
+	grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 nav {
@@ -310,6 +310,11 @@ nav {
 }
 
 .page-about nav > a[href="/about"] {
+	background: #fff;
+	color: var(--blue);
+}
+
+.page-press nav > a[href="/press"] {
 	background: #fff;
 	color: var(--blue);
 }

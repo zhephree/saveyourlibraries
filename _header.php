@@ -18,7 +18,7 @@
 			<a href="/volunteer">Volunteer</a>
 			<a href="/comment">Public Comment</a>
 			<a href="/facts">Facts</a>
-			<!-- <a href="/resources">Resources</a> -->
+			<a href="/press">Press</a>
 			<a href="/about">About</a>
 			<a href="mailto:saveyournolalibrary@gmail.com">Contact Us</a>
 		</nav>
@@ -30,7 +30,7 @@
 				<a href="/volunteer">Volunteer</a>
 				<a href="/comment">Public Comment</a>
 				<a href="/facts">Facts</a>
-				<!-- <a href="/resources">Resources</a> -->
+				<a href="/press">Press</a>
 				<a href="/about">About</a>
 				<a href="mailto:saveyournolalibrary@gmail.com">Contact Us</a>
 			</div>
