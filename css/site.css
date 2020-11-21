@@ -463,6 +463,7 @@ body:not(.page-home) main {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	padding: 15px;
 }
 
 		.footer-logo {
@@ -472,7 +473,7 @@ body:not(.page-home) main {
 
 		.left {
 			flex-grow: 1;
-			font-size: 36pt;
+			font-size: 22pt;
 			font-weight: bold;
 			line-height: .9;
 		}

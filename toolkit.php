@@ -50,7 +50,7 @@ require('_header.php');
 				<i class="fad fa-hands-helping"></i>
 				<p>
 					<strong>Volunteer</strong><br>
-					We are spreading the word by phone banking and canvassing in our communities. <a href="https://docs.google.com/forms/d/1V8oOlIq8bbMNkqtWEQ4PKQaTmEhcfB0NznPHWR0yU6Q/edit" target="_blank" rel="noopener">Sign up to volunteer</a>!
+					We are spreading the word by phone banking and canvassing in our communities. <a href="https://docs.google.com/forms/d/1V8oOlIq8bbMNkqtWEQ4PKQaTmEhcfB0NznPHWR0yU6Q" target="_blank" rel="noopener">Sign up to volunteer</a>!
 				</p>
 			</div>
 			<div class="bullet-item">

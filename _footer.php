@@ -1,12 +1,11 @@
 	</main>
 	<footer class="blue">
 		<div class="footer-wrapper">
-			<img src="/img/logo_dsa.png" id="dsa-logo" alt="LOGO: DSA" height="100" width="100" class="footer-logo">
-			<div class="left">New Orleans
-				<div class="left-sub">Democratic Socialists of America</div>
+			<div class="left">
+				Save Your Libraries - Vote No On 2! Coalition
 			</div>
 
-			<div class="right">Copyright 2020 DSA New Orleans
+			<div class="right">Copyright 2020 Save Your Libraries - Vote No On 2! Coalition
 				<div class="right"><a href="mailto:saveyournolalibrary@gmail.com">saveyournolalibrary@gmail.com</a></div>
 			</div>
 		</div>
