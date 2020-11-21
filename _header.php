@@ -6,7 +6,7 @@
 	<meta name="description" content="The Save Your NOLA Library coalition is composed of a diverse group of librarians, library users, community groups, unions and concerned citizens. We’re voting NO on proposition #2 because we believe continued funding for our libraries makes for a stronger New Orleans.">
 	<link rel="stylesheet" type="text/css" href="/css/reboot.css?_=20201118">
 	<link rel="stylesheet" href="https://use.typekit.net/jxw8ztc.css">
-	<link rel="stylesheet" type="text/css" href="/css/site.css?_=202011181952">
+	<link rel="stylesheet" type="text/css" href="/css/site.css?_=20201121">
 	<script src="https://kit.fontawesome.com/437c873b60.js" crossorigin="anonymous"></script>
 	<title><?= !empty($page_title)? $page_title . ' - ': '' ?>#SaveYourLibraries</title>
 </head>
