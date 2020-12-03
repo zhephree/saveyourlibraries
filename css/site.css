@@ -355,6 +355,12 @@ body:not(.page-home) main {
 				width: var(--icon-big);
 			}
 
+			.bullet-item img {
+				width: 256px;
+				align-self: flex-start;
+				margin-right: 15px;
+			}
+
 			.bullet-item p {
 				font-size: var(--fs-normal);
 				margin-left: 60px;

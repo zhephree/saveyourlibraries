@@ -181,6 +181,43 @@ require('_header.php');
 				</div>
 			</div>
 
+			<h1 class="mt-40">Endorsers</h1>
+			<div class="bullet-item">
+				<img src="/img/end_mandie.jpg" alt="photo of Mandie Landry">
+				<p>
+					<strong>Mandie Landry</strong><br>
+					I’m voting no on millage #2 this Saturday. Along with the unions, Friends of the NOPL, and other supporters, I agree that cutting such an important public service by 40% is too costly for our city. While the proposed funding for early childhood education is definitely needed, a 40% cut to the library - accessible to all children - for about 150 seats of ECE is not something that I can support
+				</p>
+			</div>
+			<div class="bullet-item">
+				<img src="/img/end_kamari.jpg" alt="photo of Kamari Stevens">
+				<p>
+					<strong>Kamari Stevens</strong><br>
+					I'm Kamari Stevens, local New Orleans Library enthusiast, and I emphatically implore you to support Save Your Nola Library and vote NO on Proposition 2. I support No on 2, because I know we shouldn't have to choose between funding childhood education and libraries and specifically our New Orleans libraries have done a great job at providing resources and availability that has strengthened childhood education in this city! The New Orleans libraries have been a sanctuary for folks like myself, especially during these trying times and we as a community need to prioritize saving institutions like our libraries, by all means necessary. 
+				</p>
+			</div>
+			<div class="bullet-item">
+				<img src="/img/end_layne.jpg" alt="photo of Layne Mandros">
+				<p>
+					<strong>Layne Mandros</strong><br>
+					Endorsement Statement: As a teacher in New Orleans, having access to a public library has been essential and enriching for my students--especially during the pandemic. Having access to books, resources, audiobooks and so much more has helped me share my lifelong passion for reading with my students. The libraries in New Orleans are a keystone for our community and our children and should be protected and respected. Support the New Orleans Public Library by voting "NO" on #2 December 5th. 
+				</p>
+			</div>
+			<div class="bullet-item">
+				<img src="/img/end_lisa.jpg" alt="photo of Lisa Chmiola">
+				<p>
+					<strong>Lisa Chmiola</strong><br>
+					Libraries are an even more critical resource due to the pandemic. Whether providing internet access to those without, or sharing reading materials especially with children, our libraries are the very fabric of our neighborhoods. A further reduction in the budget of our libraries is unconscionable, and that’s why I’ll vote No on #2. Our community deserves access to education and libraries play a crucial role.
+				</p>
+			</div>
+			<div class="bullet-item">
+				<img src="/img/end_matthijs.jpg" alt="photo of Matthijs Herzberg">
+				<p>
+					<strong>Matthijs Herzberg</strong><br>
+					My reasons for opposing millage #2 are simple: defunding our library system by nearly 40% will be massively destructive. Libraries are a cornerstone of our society: they empower all, but especially those of lesser means, and a society is only as strong as its most vulnerable members. It is upsetting to see our leaders abuse their power to lie about the reasoning and effects of the proposal, but I believe the people of this city are smart enough to see through that.
+				</p>
+			</div>
+
 			<h1 class="mt-40">Contact Us</h1>
 			<p>If you have questions or want for information, contact us at SaveYourNOLALibrary@gmail.com</p>
 
