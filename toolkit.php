@@ -97,6 +97,15 @@ require('_header.php');
 				</div>
 				<div class="tile">
 					<div class="tile-thumb">
+						<img src="/img/graph_es.png" alt="THUMBNAIL: no on 2 tasas de millaje grafico">
+					</div>
+					<p>No on 2 tasas de millaje grafico en Español</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1EZjotgxtmC7qdszOGRL_2rd85uXBWeXt/view?usp=sharing" rel="noopener">JPG</a> 
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
 						<img src="/img/onepager_thumb.png" alt="THUMBNAIL: Preview of the Short & Sweet One Pager PDF">
 					</div>
 					<p>Short & Sweet One Pager</p>
