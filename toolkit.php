@@ -29,7 +29,7 @@ require('_header.php');
 				<i class="fad fa-thumbs-up"></i>
 				<p>
 					<strong>Like our Facebook, Instagram, and Twitter</strong><br>
-					We are on <a href="https://www.facebook.com/SaveYourNOLALibrary" target="_blank" rel="noopener">Facebook</a>, <a href="https://www.instagram.com/saveyournolalibrary/" target="_blank" rel="noopener">Instagram</a>, and <a href="https://twitter.com/savenolalibrary" target="_blank" rel="noopener">Twitter</a>. Help spread our message by liking, sharing and commenting on our content. And use our <a href="https://docs.google.com/document/d/1xwIasy-ou6EbYX295fyzejXOYmeu4PZyw-JbYwLnsIg/edit#heading=h.y27myxrtgzz" target="_blank" rel="noopener">social media graphics</a> to create your own posts!
+					We are on <a href="https://www.facebook.com/SaveYourNOLALibrary" target="_blank" rel="noopener">Facebook</a>, <a href="https://www.instagram.com/saveyournolalibrary/" target="_blank" rel="noopener">Instagram</a>, and <a href="https://twitter.com/savenolalibrary" target="_blank" rel="noopener">Twitter</a>. Help spread our message by liking, sharing and commenting on our content. And use our <a href="https://drive.google.com/drive/folders/1IF0feiEGcf4FH55syjZQfBL28CrADY7L?usp=sharing" target="_blank" rel="noopener">social media graphics</a> to create your own posts!
 				</p>
 			</div>
 			<div class="bullet-item">
@@ -83,6 +83,16 @@ require('_header.php');
 					<div class="tile-links">
 						<a href="https://drive.google.com/file/d/1H-d5wvNke12q1qRTG4_bV_EhGU-tTsjq/view?usp=sharing" rel="noopener">JPG</a> |
 						<a href="https://drive.google.com/file/d/11WcZ_K-2Ex4bHsmciBGhialhgjcEcJQ2/view?usp=sharing" rel="noopener">PDF</a>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-thumb">
+						<img src="/img/qa_thumb_es.png" alt="THUMBNAIL: vista previa de la Q & A PDF">
+					</div>
+					<p>Q & A en Español</p>
+					<div class="tile-links">
+						<a href="https://drive.google.com/file/d/1SMfA47rFcqH2NFto-eSb703OJTonGtvK/view?usp=sharing" rel="noopener">JPG</a> |
+						<a href="https://drive.google.com/file/d/1KvNngx6fq0rkl9oYPWVlPvX_2fwik5Sw/view?usp=sharing" rel="noopener">PDF</a>
 					</div>
 				</div>
 				<div class="tile">
