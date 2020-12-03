@@ -35,8 +35,8 @@ require('_header.php');
 			<div class="bullet-item">
 				<i class="fad fa-mail-bulk"></i>
 				<p>
-					<strong>Stay Connected & Spread the Word</strong><br>
-					Join our mailing list and forward our emails to your network.
+					<strong>Sign our Petition & Spread the Word</strong><br>
+					Show your support by signing our petition. Once you sign, we’ll keep you updated about the campaign! <a href="https://actionnetwork.org/petitions/save-nola-libraries?clear_id=true" rel="noopener" target="_blank">Spread the word by sharing the petition</a> and our emails with your network.
 				</p>
 			</div>
 			<div class="bullet-item">
