@@ -20,7 +20,7 @@
 			<a href="/facts">Facts</a>
 			<a href="/press">Press</a>
 			<a href="/about">About</a>
-			<a href="mailto:saveyournolalibrary@gmail.com">Contact Us</a>
+			<a href="/contact">Contact Us</a>
 		</nav>
 
 		<nav id="mobile-nav">
